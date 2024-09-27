@@ -22,4 +22,5 @@
  
  console.log(gameName.split('-'))
  
- 
+ // for minimum random no 
+ // console.log(Math.floor(Math.random() * (max - min +1)) + min)
