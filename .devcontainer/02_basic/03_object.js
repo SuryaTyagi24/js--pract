@@ -11,4 +11,20 @@ const JsUser ={
     isLoggedIn : false,
     lastLoginDays : ["Mon", "Sat"]
 }
-console.log(JsUser.email);
+//console.log(JsUser.email);
+
+JsUser.eamil = "tyagidivyam24@gmail.com"
+//Object.freeze(JsUser)
+JsUser.email = "tyagisurya01@gmail.com"
+//console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello Js User");
+}
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS User, ${this.name}`);
+    
+}
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
+
