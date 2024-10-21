@@ -29,6 +29,21 @@ const obj3 = {...obj1 , ...obj2}
 
 // console.log(Object.values(tinderUser));
 
-console.log(Object.entries(tinderUser));
+//console.log(Object.entries(tinderUser));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Tyagi"
+}
+//course.courseInstructor
+
+const{courseInstructor: instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+
+
 
  
